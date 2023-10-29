@@ -37,3 +37,6 @@
 [submodule "dependencies/ouster_decoder"]
 	path = dependencies/ouster_decoder
 	url = https://github.com/KumarRobotics/ouster_decoder.git
+[submodule "top_down_renderer"]
+	path = top_down_renderer
+	url = https://github.com/KumarRobotics/top_down_renderer.git
