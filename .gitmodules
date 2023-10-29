@@ -34,3 +34,6 @@
 [submodule "tools/rviz_textured_quads"]
 	path = tools/rviz_textured_quads
 	url = https://github.com/lucasw/rviz_textured_quads
+[submodule "dependencies/ouster_decoder"]
+	path = dependencies/ouster_decoder
+	url = https://github.com/KumarRobotics/ouster_decoder.git
