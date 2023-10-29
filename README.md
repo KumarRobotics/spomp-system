@@ -17,7 +17,7 @@ Here are all the submodules needed for the stack.
 - [grid_map](https://github.com/KumarRobotics/grid_map): Fork of grid_map with resizing and compression capabilities
 - [orbslam3_ros](https://github.com/iandouglas96/orbslam3_ros/): ROS wrapper for ORBSLAM3
 - [erfnet_pytorch_ros](https://github.com/iandouglas96/erfnet_pytorch_ros): ROS wrapper for erfnet (for aerial image segmentation)
-- [rangenet_inf](https://github.com/iandouglas96/rangenet_inf): ROS wrapper for RangeNet++ (for depth panorama segmentation)
+- [rangenet_inf](https://github.com/KumarRobotics/rangenet_inf): ROS wrapper for RangeNet++ (for depth panorama segmentation)
 
 ## Tools
 These are not needed to run the stack, but may be useful.

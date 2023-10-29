@@ -24,7 +24,7 @@
 	url = https://github.com/iandouglas96/erfnet_pytorch_ros.git
 [submodule "dependencies/rangenet_inf"]
 	path = dependencies/rangenet_inf
-	url = https://github.com/iandouglas96/rangenet_inf.git
+	url = https://github.com/KumarRobotics/rangenet_inf.git
 [submodule "tools/sill"]
 	path = tools/sill
 	url = git@github.com:iandouglas96/sill.git
