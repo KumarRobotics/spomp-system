@@ -1,0 +1,33 @@
+[submodule "semantics_manager"]
+	path = semantics_manager
+	url = https://github.com/KumarRobotics/semantics_manager.git
+[submodule "rofl-beta"]
+	path = rofl-beta
+	url = https://github.com/versatran01/rofl-beta
+[submodule "spomp"]
+	path = spomp
+	url = https://github.com/KumarRobotics/spomp.git
+[submodule "asoom"]
+	path = asoom
+	url = https://github.com/KumarRobotics/asoom.git
+[submodule "air_router"]
+	path = air_router
+	url = https://github.com/KumarRobotics/air_router.git
+[submodule "MOCHA"]
+	path = MOCHA
+	url = https://github.com/KumarRobotics/MOCHA.git
+[submodule "dependencies/orbslam3_ros"]
+	path = dependencies/orbslam3_ros
+	url = https://github.com/iandouglas96/orbslam3_ros.git
+[submodule "dependencies/erfnet_pytorch_ros"]
+	path = dependencies/erfnet_pytorch_ros
+	url = https://github.com/iandouglas96/erfnet_pytorch_ros.git
+[submodule "dependencies/rangenet_inf"]
+	path = dependencies/rangenet_inf
+	url = https://github.com/iandouglas96/rangenet_inf.git
+[submodule "tools/sill"]
+	path = tools/sill
+	url = git@github.com:iandouglas96/sill.git
+[submodule "dependencies/grid_map"]
+	path = dependencies/grid_map
+	url = https://github.com/KumarRobotics/grid_map.git
