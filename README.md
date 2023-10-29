@@ -7,7 +7,7 @@ Here are all the submodules needed for the stack.
 
 - [semantics_manager](http://github.com/KumarRobotics/semantics_manager): Starting point for launch files and configuration management
 - [ROFL](https://github.com/versatran01/rofl-beta): LiDAR odometry
-- [SPOMP](http://github.com/KumarRobotics/spomp-system): Autonomy stack for UGVs.  Handles terrain analysis and global and local planning.
+- [SPOMP](http://github.com/KumarRobotics/spomp): Autonomy stack for UGVs.  Handles terrain analysis and global and local planning.
 - [ASOOM](http://github.com/KumarRobotics/asoom): Aerial orthomapper
 - [air_router](https://github.com/KumarRobotics/air_router): High-level planner for UAV
 - [MOCHA](http://github.com/KumarRobotics/MOCHA): Distributed, opportunistic communication framework
