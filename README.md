@@ -23,3 +23,4 @@ Here are all the submodules needed for the stack.
 These are not needed to run the stack, but may be useful.
 
 - [SILL](https://github.com/iandouglas96/sill): Depth panorama/LiDAR labelling tool
+- [rviz_textured_quads](https://github.com/lucasw/rviz_textured_quads) Useful tool for visualizing map images in rviz

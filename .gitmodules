@@ -31,3 +31,6 @@
 [submodule "dependencies/grid_map"]
 	path = dependencies/grid_map
 	url = https://github.com/KumarRobotics/grid_map.git
+[submodule "tools/rviz_textured_quads"]
+	path = tools/rviz_textured_quads
+	url = https://github.com/lucasw/rviz_textured_quads
