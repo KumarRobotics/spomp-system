@@ -3,6 +3,10 @@
 This is the public code repository for our work SPOMP.
 Here are all the submodules needed for the stack.
 
+## Video
+
+[<img src="video_thumbnail.png">](https://www.youtube.com/watch?v=jcPOVRsdUhU)
+
 ## Main modules
 
 - [semantics_manager](http://github.com/KumarRobotics/semantics_manager): Starting point for launch files and configuration management
