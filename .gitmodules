@@ -40,3 +40,6 @@
 [submodule "top_down_renderer"]
 	path = top_down_renderer
 	url = https://github.com/KumarRobotics/top_down_renderer.git
+[submodule "dependencies/ORB_SLAM3"]
+	path = dependencies/ORB_SLAM3
+	url = https://github.com/KumarRobotics/ORB_SLAM3.git

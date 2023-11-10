@@ -24,6 +24,7 @@ Here are all the submodules needed for the stack.
 - [erfnet_pytorch_ros](https://github.com/iandouglas96/erfnet_pytorch_ros): ROS wrapper for erfnet (for aerial image segmentation)
 - [rangenet_inf](https://github.com/KumarRobotics/rangenet_inf): ROS wrapper for RangeNet++ (for depth panorama segmentation)
 - [ouster_decoder](https://github.com/KumarRobotics/ouster_decoder): Ouster LiDAR driver (needed for ROFL)
+- [ORB_SLAM3](https://github.com/KumarRobotics/ORB_SLAM3): Fork of ORB_SLAM3 with loop closure deactivated.
 
 ## Tools
 These are not needed to run the stack, but may be useful.
