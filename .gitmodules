@@ -27,7 +27,7 @@
 	url = https://github.com/KumarRobotics/rangenet_inf.git
 [submodule "tools/sill"]
 	path = tools/sill
-	url = git@github.com:iandouglas96/sill.git
+	url = https://github.com/iandouglas96/sill.git
 [submodule "dependencies/grid_map"]
 	path = dependencies/grid_map
 	url = https://github.com/KumarRobotics/grid_map.git
