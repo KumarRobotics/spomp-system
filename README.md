@@ -1,4 +1,5 @@
 # SPOMP: Semantic Panoramic Online Mapping and Planning
+![Docker CI Build](https://github.com/KumarRobotics/spomp-system/actions/workflows/docker-build.yaml/badge.svg?branch=main)
 
 This is the public code repository for our work SPOMP.
 Here are all the submodules needed for the stack.

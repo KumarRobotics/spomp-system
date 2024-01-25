@@ -1,9 +1,9 @@
-name: docker-build-base
+name: docker-build-CI
 
 # Only build base when any of the files in the base directory are modified
 on:
   push:
-    branches: [master, ci]
+    branches: [main, ci]
     tags:
       - '*'
   workflow_dispatch:
