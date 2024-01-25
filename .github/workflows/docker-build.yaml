@@ -1,0 +1,40 @@
+name: docker-build-base
+
+# Only build base when any of the files in the base directory are modified
+on:
+  push:
+    branches: [master, ci]
+    tags:
+      - '*'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  main:
+    runs-on: ubuntu-20.04
+
+    steps:
+      -
+        name: Free Disk Space
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+      -
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      -
+        name: Build and push
+        id: docker_build
+        uses: docker/build-push-action@v5
+        with:
+          context: "{{defaultContext}}"
+          push: false
+          platforms: linux/amd64
+          build-args: git_hash=${{ github.sha }}
+      -
+        name: Image digest
+        run: echo ${{ steps.docker_build.outputs.digest }}
