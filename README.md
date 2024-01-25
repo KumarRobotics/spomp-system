@@ -1,4 +1,5 @@
 # SPOMP: Semantic Panoramic Online Mapping and Planning
+![Docker CI Build](https://github.com/KumarRobotics/spomp-system/actions/workflows/docker-build.yaml/badge.svg?branch=main)
 
 This is the public code repository for our work SPOMP.
 Here are all the submodules needed for the stack.
@@ -6,6 +7,23 @@ Here are all the submodules needed for the stack.
 ## Video
 
 [<img src="video_thumbnail.png">](https://www.youtube.com/watch?v=jcPOVRsdUhU)
+
+## How to run the code?
+We provide Docker images that can be used to run this code:
+```
+# Clone and run the master docker image
+git clone https://github.com/KumarRobotics/dcist_master.git
+cd dcist_master
+./run.bash dcist-master
+
+# Clone the repo and build
+cd user_ws
+mkdir src
+git clone --recursive -j8 https://github.com/KumarRobotics/spomp-system.git src/spomp-system
+catkin config --extend ~/dcist_ws/devel && catkin build -DCMAKE_BUILD_TYPE=Release
+```
+
+Launch files for air and ground robots can be found inside `semantics_manager`.
 
 ## Main modules
 
