@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	<arg name="robot" default="quadrotor"/>
+	<arg name="online" default="true" />
+
+	<!-- ublox -->
+	<group if="$(arg online)">
+		<!-- include file="$(find ublox_gps)/launch/ublox_device.launch">
+			<arg name="param_file_name" value="zed_f9p"/>
+		</include -->
+
+		<!-- pixhawk (nice priority -15) -->
+		<include file="$(find titan_launch)/launch/px4.launch">
+		</include>
+	</group>
+	
+	<!-- image proc so we compress all nicely -->
+	<node name="image_proc_rgb" pkg="image_proc" type="image_proc" ns="/ovc/rgb"/>
+
+ </launch>
+
