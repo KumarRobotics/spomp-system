@@ -8,6 +8,24 @@ Here are all the submodules needed for the stack.
 
 [<img src="video_thumbnail.png">](https://www.youtube.com/watch?v=jcPOVRsdUhU)
 
+## Paper
+IEEE T-FR: [https://doi.org/10.1109/TFR.2024.3424748](https://doi.org/10.1109/TFR.2024.3424748)
+arXiv: [https://doi.org/10.48550/arXiv.2407.09902](https://doi.org/10.48550/arXiv.2407.09902)
+
+Citation:
+```
+@ARTICLE{10587299,
+  author={Miller, Ian D. and Cladera, Fernando and Smith, Trey and Taylor, Camillo Jose and Kumar, Vijay},
+  journal={IEEE Transactions on Field Robotics}, 
+  title={Air-Ground Collaboration with SPOMP: Semantic Panoramic Online Mapping and Planning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Semantics;Laser radar;Task analysis;Planning;Robot sensing systems;Sensors;Three-dimensional displays},
+  doi={10.1109/TFR.2024.3424748}}
+```
+
 ## How to run the code?
 We provide Docker images that can be used to run this code:
 ```
